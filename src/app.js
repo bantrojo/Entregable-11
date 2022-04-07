@@ -28,7 +28,7 @@ app.use('/api/products-faker', function (req, res) {
 
     let objects = [];
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 5; i++) {
         objects.push({
             product: commerce.product(),
             name: commerce.productName(),
